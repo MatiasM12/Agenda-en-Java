@@ -22,15 +22,8 @@ CREATE TABLE `personas`
 create table `tipoContactos`
 (
  `tipoDeContacto` varchar(45) NOT NULL,
-<<<<<<< HEAD
- PRIMARY KEY (`tipoContactos`)
-=======
-<<<<<<< HEAD
  PRIMARY KEY (`tipoDeContacto`)
-=======
- PRIMARY KEY (`tipoContactos`)
->>>>>>> 1fce85c853a004e895e21f339f61740243cee1a9
->>>>>>> rama1
+
 );
 
 CREATE TABLE `Paises`(`nombre_pk` varchar(25) NOT NULL,
